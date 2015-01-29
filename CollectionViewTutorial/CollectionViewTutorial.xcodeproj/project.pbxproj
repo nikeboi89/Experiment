@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		79ACF3D31A7A374200E0FB92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF3D21A7A374200E0FB92 /* main.m */; };
 		79ACF3D61A7A374200E0FB92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF3D51A7A374200E0FB92 /* AppDelegate.m */; };
-		79ACF3D91A7A374200E0FB92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF3D81A7A374200E0FB92 /* ViewController.m */; };
 		79ACF3DC1A7A374200E0FB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79ACF3DA1A7A374200E0FB92 /* Main.storyboard */; };
 		79ACF3DE1A7A374200E0FB92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79ACF3DD1A7A374200E0FB92 /* Images.xcassets */; };
 		79ACF3E11A7A374200E0FB92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79ACF3DF1A7A374200E0FB92 /* LaunchScreen.xib */; };
 		79ACF3ED1A7A374200E0FB92 /* CollectionViewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF3EC1A7A374200E0FB92 /* CollectionViewTutorialTests.m */; };
+		79ACF3F81A7A381800E0FB92 /* HNCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF3F71A7A381800E0FB92 /* HNCollectionViewController.m */; };
+		79ACF3FC1A7A38C500E0FB92 /* HNPhotoAlbumLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF3FB1A7A38C500E0FB92 /* HNPhotoAlbumLayout.m */; };
+		79ACF4001A7A39C700E0FB92 /* HNAlbumPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF3FF1A7A39C700E0FB92 /* HNAlbumPhotoCell.m */; };
+		79ACF4061A7A3F3600E0FB92 /* BHAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF4031A7A3F3600E0FB92 /* BHAlbum.m */; };
+		79ACF4071A7A3F3600E0FB92 /* BHPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ACF4051A7A3F3600E0FB92 /* BHPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		79ACF3D21A7A374200E0FB92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79ACF3D41A7A374200E0FB92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79ACF3D51A7A374200E0FB92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		79ACF3D71A7A374200E0FB92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		79ACF3D81A7A374200E0FB92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79ACF3DB1A7A374200E0FB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79ACF3DD1A7A374200E0FB92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79ACF3E01A7A374200E0FB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		79ACF3E61A7A374200E0FB92 /* CollectionViewTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79ACF3EB1A7A374200E0FB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79ACF3EC1A7A374200E0FB92 /* CollectionViewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewTutorialTests.m; sourceTree = "<group>"; };
+		79ACF3F61A7A381800E0FB92 /* HNCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNCollectionViewController.h; sourceTree = "<group>"; };
+		79ACF3F71A7A381800E0FB92 /* HNCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNCollectionViewController.m; sourceTree = "<group>"; };
+		79ACF3FA1A7A38C500E0FB92 /* HNPhotoAlbumLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNPhotoAlbumLayout.h; sourceTree = "<group>"; };
+		79ACF3FB1A7A38C500E0FB92 /* HNPhotoAlbumLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNPhotoAlbumLayout.m; sourceTree = "<group>"; };
+		79ACF3FE1A7A39C700E0FB92 /* HNAlbumPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNAlbumPhotoCell.h; sourceTree = "<group>"; };
+		79ACF3FF1A7A39C700E0FB92 /* HNAlbumPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNAlbumPhotoCell.m; sourceTree = "<group>"; };
+		79ACF4021A7A3F3600E0FB92 /* BHAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHAlbum.h; sourceTree = "<group>"; };
+		79ACF4031A7A3F3600E0FB92 /* BHAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHAlbum.m; sourceTree = "<group>"; };
+		79ACF4041A7A3F3600E0FB92 /* BHPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHPhoto.h; sourceTree = "<group>"; };
+		79ACF4051A7A3F3600E0FB92 /* BHPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +93,11 @@
 		79ACF3CF1A7A374200E0FB92 /* CollectionViewTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				79ACF4011A7A3F1F00E0FB92 /* Model */,
+				79ACF3FD1A7A39A200E0FB92 /* View */,
+				79ACF3F91A7A388B00E0FB92 /* ViewControllers */,
 				79ACF3D41A7A374200E0FB92 /* AppDelegate.h */,
 				79ACF3D51A7A374200E0FB92 /* AppDelegate.m */,
-				79ACF3D71A7A374200E0FB92 /* ViewController.h */,
-				79ACF3D81A7A374200E0FB92 /* ViewController.m */,
 				79ACF3DA1A7A374200E0FB92 /* Main.storyboard */,
 				79ACF3DD1A7A374200E0FB92 /* Images.xcassets */,
 				79ACF3DF1A7A374200E0FB92 /* LaunchScreen.xib */,
@@ -117,6 +130,37 @@
 				79ACF3EB1A7A374200E0FB92 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79ACF3F91A7A388B00E0FB92 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79ACF3F61A7A381800E0FB92 /* HNCollectionViewController.h */,
+				79ACF3F71A7A381800E0FB92 /* HNCollectionViewController.m */,
+				79ACF3FA1A7A38C500E0FB92 /* HNPhotoAlbumLayout.h */,
+				79ACF3FB1A7A38C500E0FB92 /* HNPhotoAlbumLayout.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		79ACF3FD1A7A39A200E0FB92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79ACF3FE1A7A39C700E0FB92 /* HNAlbumPhotoCell.h */,
+				79ACF3FF1A7A39C700E0FB92 /* HNAlbumPhotoCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		79ACF4011A7A3F1F00E0FB92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79ACF4021A7A3F3600E0FB92 /* BHAlbum.h */,
+				79ACF4031A7A3F3600E0FB92 /* BHAlbum.m */,
+				79ACF4041A7A3F3600E0FB92 /* BHPhoto.h */,
+				79ACF4051A7A3F3600E0FB92 /* BHPhoto.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79ACF3D91A7A374200E0FB92 /* ViewController.m in Sources */,
+				79ACF4001A7A39C700E0FB92 /* HNAlbumPhotoCell.m in Sources */,
 				79ACF3D61A7A374200E0FB92 /* AppDelegate.m in Sources */,
+				79ACF3F81A7A381800E0FB92 /* HNCollectionViewController.m in Sources */,
+				79ACF3FC1A7A38C500E0FB92 /* HNPhotoAlbumLayout.m in Sources */,
+				79ACF4071A7A3F3600E0FB92 /* BHPhoto.m in Sources */,
 				79ACF3D31A7A374200E0FB92 /* main.m in Sources */,
+				79ACF4061A7A3F3600E0FB92 /* BHAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HNCollectionViewController.h
 //  CollectionViewTutorial
 //
 //  Created by Hoang Nguyen Ngoc on 1/29/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HNCollectionViewController : UICollectionViewController
 
 @end
-
